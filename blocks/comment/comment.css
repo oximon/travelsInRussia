@@ -1,0 +1,30 @@
+@import url('__container/comment__container.css');
+@import url('__img/comment__img.css');
+@import url('__quote/comment__quote.css');
+@import url('__author/comment__author.css');
+
+.comment {
+	max-width: 382px;
+	margin-right: 19px;
+	display: flex;
+	flex-direction: column;
+}
+
+.comment:last-child {
+	margin-right: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .comment {
+		margin-right: 0;
+  }
+}
+
+
+
+@media screen and (max-width: 374px) {
+  .comment {
+		max-width: 288px;
+		margin-right: 0;
+  }
+}

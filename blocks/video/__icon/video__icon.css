@@ -1,0 +1,14 @@
+@import url('_type/video__icon_type_play.css');
+@import url('_right/video__icon_right.css');
+@import url('_left/video__icon_left.css');
+
+.video__icon {
+	/* margin-bottom: 18%; */
+	width: 41px;
+	height: 41px;
+	z-index: 2;
+	position: relative;
+}
+
+
+
